@@ -21,6 +21,10 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+#introUpperSpace {
+  height: 41vh;
+}
+
 #bio {
   border-radius: 25px;
   background-color: rgba(0, 0, 0, 0.7);
@@ -68,6 +72,9 @@
 @media (max-width: 479px) {
   .navbar {
     background-color: rgba(0, 0, 0, 0.9);
+  }
+  #introUpperSpace {
+    height: 44vh;
   }
   #myName {
     font-size: 30px;
