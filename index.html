@@ -14,6 +14,7 @@
 
     <!-- Bootstrap & Utilities -->
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/f660560a2a.js" crossorigin="anonymous"></script>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
@@ -34,13 +35,13 @@
         <div class="collapse navbar-collapse" id="navbarColor02">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#">Portfolio</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -62,41 +63,53 @@
 
         <div id="bio" class="p-5">
             <div class="row justify-content-center">
-                <h1 class="display-3 ">About me</h1>
+                <a name="about">
+                    <h1 class="display-3 ">About me</h1>
+                </a>
             </div>
             <div class="row mb-5">
                 <div class="col-sm">
-                    <img src="brito_profile.jpg" style="max-width: 100%;" class="rounded img-thumbnail float-right">
+                    <img src="assets/img/brito_profile.jpg" style="max-width: 100%;"
+                        class="rounded img-thumbnail float-right">
                 </div>
                 <div class="col-md">
                     <p class="lead" style="text-align: justify; text-justify: inter-word;">I'm a full-stack developer
                         specialised in frontend and backend development for
                         complex
-                        and scalable web apps. I regularly participate at conferences and Meetups, and enjoy teaching
+                        and scalable web applications. I regularly participate at conferences and Meetups, and enjoy
+                        teaching
                         about
                         Software development.</p>
-                    <a class="btn btn-outline-primary" href="#" role="button">My Resume</a>
+                    <a class="btn btn-outline-primary" target="blank"
+                        href="http://brito.anevi.com/blog/wp-content/uploads/2020/04/Resume_April2020.pdf"
+                        role="button">My Resume</a>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <!-- <div class="row justify-content-center">
                 <h1 class="display-3 ">Projects</h1>
             </div>
-            <div class="row mb-5">
-                <p></p>
+            <div class="row justify-content-center mb-5">
+                <h2>Coming soon...</h2>
+            </div> -->
+            <div class="row justify-content-center">
+                <a name="contact">
+                    <h1 class="display-3 ">Contact me</h1>
+                </a>
             </div>
             <div class="row justify-content-center">
-                <h1 class="display-3 ">Contact me</h1>
-            </div>
-            <div class="row justify-content-center">
-                <p class="lead">
-                    For projects and contracts reach me at my email: <a
-                        href="mailto:britomaximiliano83@gmail.com">britomaximiliano83@gmail.com</a>
-                </p>
+                <div class="col">
+                    <p class="lead text-center">
+                        For projects and contracts reach me at my email:
+                    </p>
+                    <p class="lead text-center">
+                        <a href="mailto:britomaximiliano83@gmail.com">BritoMaximiliano83@gmail.com</a>
+                    </p>
+                </div>
             </div>
             <div class="row justify-content-center">
                 <a href="https://www.facebook.com/brito.maximiliano.566/" target="blank" class="fa fa-facebook"></a>
                 <a href="https://www.linkedin.com/in/jbritom83/" target="blank" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-skype"></a>
+                <a href="https://join.skype.com/invite/X3cMZq1tGqUR" class="fa fa-skype"></a>
             </div>
         </div>
     </div>
